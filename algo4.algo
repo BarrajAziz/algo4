@@ -1,0 +1,27 @@
+ALGORITHM is_palindrome
+var 
+word:STRING; 
+
+begin
+write("type a word");
+read( word)
+    if len(word) < 2;
+        write(this word is palindrome)
+
+    
+    start = 0
+    end = len(word) - 1
+
+    while start < end:
+        if word[start] != word[end]:
+            return False
+        start += 1
+        end -= 1
+        write(this word is palindrome)
+        else 
+        write("this word is not palindrome")
+end if_else
+end while
+    
+    
+    end.
